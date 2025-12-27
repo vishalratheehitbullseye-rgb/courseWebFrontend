@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; background: #f6f7fb; color: #111; }
+a { color: inherit; }
+code { background: #f0f0f0; padding: 2px 6px; border-radius: 6px; }
+.container { max-width: 1100px; margin: 0 auto; padding: 18px; }
+.header { display: grid; gap: 6px; margin-bottom: 14px; }
+.grid { display: grid; grid-template-columns: 380px 1fr; gap: 16px; align-items: start; }
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+.card { background: #fff; border: 1px solid #e8e8ee; border-radius: 14px; }
+.btn { padding: 10px 14px; border-radius: 10px; cursor: pointer; border: 1px solid #c9c9d3; background: #fff; }
+.btn-primary { background: #111; color: #fff; border: 1px solid #111; }
+.btn-danger { border: 1px solid #ffb3b3; background: #fff5f5; }
+.input, .textarea { width: 100%; padding: 10px; border-radius: 10px; border: 1px solid #cfcfe0; outline: none; background: #fff; }
+.input:focus, .textarea:focus { border-color: #111; }
+.muted { color: #555; }
+.errorBox { padding: 12px; border-radius: 12px; border: 1px solid #ffb3b3; background: #fff5f5; }
+.successBox { padding: 12px; border-radius: 12px; border: 1px solid #bfe9bf; background: #f3fff3; }
+.badge { font-size: 12px; padding: 4px 8px; border-radius: 999px; border: 1px solid #dedee8; background: #fafafe; }
