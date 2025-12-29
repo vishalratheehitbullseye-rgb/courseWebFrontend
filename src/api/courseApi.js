@@ -63,3 +63,7 @@ export function updateCourse(courseId, course) {
 export function deleteCourse(courseId) {
   return request(`/courses/${courseId}`, { method: "DELETE" });
 }
+
+export function getAllOrders(){
+  return request(`/orders/`, { method: "GET" });
+}
